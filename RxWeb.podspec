@@ -25,7 +25,12 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-                    添加webSDK库，配置方式是pod
+                    添加webSDK库，配置方式是pod。模仿微信的打开网页的方式。
+  使用方式：
+pod RxWeb
+引入 RxWebViewController，RxWebViewController类是web页面。
+引入RxWebViewNavigationViewController类，是模仿微信返回的方式。
+
                    DESC
 
   s.homepage     = "https://github.com/wzkpony/RxWebViewController"
